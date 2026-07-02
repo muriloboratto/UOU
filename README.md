@@ -172,11 +172,18 @@ Este projeto foi desenvolvido para auxiliar no aprendizado dos seguintes tópico
 
 ---
 
-# 👨‍🏫 Finalidade Acadêmica
+# ▶️ Execução do Código
 
-Este projeto possui caráter didático e foi desenvolvido para apoiar disciplinas de:
+## Compilação
 
-* Programação Orientada a Objetos;
-* Estruturas de Dados;
-* Desenvolvimento de Software;
-* Engenharia de Software.
+No diretório do projeto, execute o comando:
+
+```bash
+mcs UOU.cs Heroi.cs HeroiAlianca.cs HeroiHorda.cs -out:UOU
+```
+
+## Execução
+
+```bash
+mono UOU
+```
